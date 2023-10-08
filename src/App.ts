@@ -39,4 +39,4 @@ var Server = App.listen(Port, function () {
 /**
  * Export the server instance for potential use in other files
  */
-module.exports = Server;
+module.exports = { Server, App };

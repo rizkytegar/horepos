@@ -3,13 +3,13 @@
     "version": "1.0.0",
     "description": "Using Json Web Token (JWT) in ExpressJS",
     "author": "rizkytegar",
-    "main": "App.js", 
+    "main": "App.js",
     "scripts": {
         "dev": "nodemon src/App.ts",
         "build": "tsc",
         "test": "jest",
         "serve": "nodemon dist/App.js"
-      },
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/rizkytegar/express-jwt.git"
@@ -24,18 +24,21 @@
     "devDependencies": {
         "@jest/globals": "^29.7.0",
         "@types/express": "^4.17.18",
+        "@types/jest": "^29.5.5",
+        "@types/jsonwebtoken": "^9.0.3",
         "@types/node": "^20.8.3",
         "express": "^4.18.2",
         "jest": "^29.7.0",
         "nodemon": "^3.0.1",
+        "supertest": "^6.3.3",
         "ts-jest": "^29.1.1",
         "ts-node": "^10.9.1",
         "typescript": "^5.2.2"
     },
     "dependencies": {
         "axios": "^1.5.1",
+        "express-rate-limit": "^7.1.0",
         "helmet": "^7.0.0",
         "jsonwebtoken": "^9.0.2"
     }
-      
 }
