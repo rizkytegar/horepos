@@ -1,0 +1,3 @@
+function Example(name, age) {
+    
+}
